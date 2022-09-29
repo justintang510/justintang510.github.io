@@ -8,7 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/justintang510/justintang510.github.io.git"
+    "url": "git+https://github.com/justintang510/justintang510.github.io.git",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/justintang510/justintang510.github.io/issues"
   },
-  "homepage": "https://github.com/justintang510/justintang510.github.io#readme",
+  "homepage": "https://github.com/justintang510/justintang510.github.io",
   "description": "",
   "devDependencies": {
     "@babel/core": "^7.19.3",
@@ -25,6 +27,7 @@
     "babel-loader": "^8.2.5",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^6.7.1",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.74.0",
