@@ -16,6 +16,10 @@ export default createGlobalStyle`
     margin-top: 25px;
   }
 
+  #about {
+    width: 65vw;
+  }
+
   .project {
     display: flex;
     flex-direction: column;
@@ -111,6 +115,6 @@ export default createGlobalStyle`
 
   h1 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
   }
 `;

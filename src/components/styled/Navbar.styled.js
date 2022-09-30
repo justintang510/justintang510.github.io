@@ -44,12 +44,12 @@ const Logo = styled.h2`
 `;
 
 const NavLinks = styled.ul`
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  padding: 0 6em;
+  padding: 0 3em;
 
   @media (max-width: 620px) {
     display: none;
