@@ -42,7 +42,7 @@ export default createGlobalStyle`
     flex-direction: column;
     padding: 15px;
     margin-top: 15px;
-    border: 2px solid rgba(44,44,44,.75);
+    border: 2px solid rgba(61,61,61,.75);
     border-radius: 10px;
     width: 33%;
     justify-content: space-between;
