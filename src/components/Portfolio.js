@@ -21,7 +21,7 @@ const Portfolio = () => {
             <div className="tech-stack">React | Node.js | PostgreSQL | AWS | Next.js | Firebase</div>
           </div>
 
-          <div className="project" onClick={event =>  window.open('https://github.com/Baratheon-Stags/front-end-capstone')}>
+          <div className="project" onClick={event =>  window.open('https://i.imgur.com/sULfCgI.png')}>
             <div className="project-info">
               <img className="project-image" src="https://i.imgur.com/DNIqs11.png"></img>
               <div className="project-name">Baratheon E-Commerce UI <GitHubIcon sx={iconStyle}/></div>

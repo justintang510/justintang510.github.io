@@ -11,7 +11,7 @@ export default createGlobalStyle`
     margin: 0;
     font-size: 20px;
     line-height: 1.35;
-    background-color: #D6BC98;
+    background-color: #E2CCAD;
     overflow-x: hidden;
     font-family: 'Poppins';
   }
@@ -21,7 +21,7 @@ export default createGlobalStyle`
     flex-direction: row;
     width: 80vw;
     gap: 15px;
-    height: 50vh;
+    height: 60vh;
     max-height: 500px;
     margin-top: 25px;
   }
@@ -34,7 +34,7 @@ export default createGlobalStyle`
     display: flex;
     flex-direction: column;
     padding: 15px;
-    border: 2px solid black;
+    border: 2px solid rgba(0,0,0,.75);
     border-radius: 5px;
     width: 33%;
     justify-content: space-between;
@@ -59,6 +59,7 @@ export default createGlobalStyle`
   }
 
   .project-name {
+    margin: 8px 0 5px;
     font-size: 1.5em;
   }
 
@@ -68,11 +69,12 @@ export default createGlobalStyle`
   }
 
   .project-desc {
-    font-size: .75em;
+    font-size: 1em;
+
   }
 
   .tech-stack {
-    font-size: .6em;
+    font-size: .5em;
   }
 
   .container {
