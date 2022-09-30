@@ -8,7 +8,7 @@ const iconStyle = {
 const Portfolio = () => {
   return (
     <>
-      <h1>Portfolio</h1>
+      <h2>Portfolio</h2>
       <div id="projects-container">
           <div className="project" onClick={event =>  window.open('https://github.com/Klippan-BO')}>
             <div className="project-info">

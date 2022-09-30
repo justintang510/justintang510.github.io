@@ -19,7 +19,7 @@ const iconStyle = {
 const Contact = () => {
   return (
     <>
-      <h1>Contact</h1>
+      <h2>Contact</h2>
       <div className="icons">
         <EmailIcon onClick={event =>  window.open('mailto:tangjustin2@gmail.com')} sx={iconStyle}/>
         <LinkedInIcon onClick={event =>  window.open('https://www.linkedin.com/in/justintang510/')} sx={iconStyle}/>
