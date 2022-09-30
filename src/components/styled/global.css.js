@@ -2,8 +2,19 @@ import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
   html {
+    font-family: 'Poppins', cursive;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
+  }
+
+  body {
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.35;
+    background-color: '#292A30';
+    color: '#f5f5f5';
+    overflow-x: hidden;
+    font-family: 'Poppins', cursive;
   }
 
   #portfolio {
@@ -44,7 +55,7 @@ export default createGlobalStyle`
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    font-size: 16px;z
+    font-size: 16px;
   }
 
   .project-name {
@@ -88,15 +99,6 @@ export default createGlobalStyle`
     flex-direction: row;
   }
 
-  body {
-    margin: 0;
-    font-size: 20px;
-    line-height: 1.35;
-    background-color: '#292A30';
-    color: '#f5f5f5';
-    overflow-x: hidden;
-    font-family: 'Poppins', sans-serif;
-  }
 
   img {
     width: 100%;
