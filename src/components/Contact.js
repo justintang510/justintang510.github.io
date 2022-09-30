@@ -8,9 +8,11 @@ const iconStyle = {
   fontSize: '120px',
   color: '#2C2C2C',
   marginTop: '10px',
+  position: 'relative',
   '&:hover': {
     cursor: 'pointer',
-    color: '#264653'
+    color: '#264653',
+    top: '-10px',
   }
 }
 

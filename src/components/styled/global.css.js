@@ -2,7 +2,6 @@ import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
   html {
-    font-family: 'Poppins';
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
   }
@@ -15,6 +14,11 @@ export default createGlobalStyle`
     overflow-x: hidden;
     font-family: 'Poppins';
     color: #2C2C2C;
+  }
+
+  #home {
+    font-family: 'Poppins';
+    font-size: 20px;
   }
 
   #projects-container {
@@ -35,6 +39,7 @@ export default createGlobalStyle`
     display: flex;
     flex-direction: column;
     padding: 15px;
+    margin-top: 15px;
     border: 2px solid rgba(0,0,0,.75);
     border-radius: 10px;
     width: 33%;
@@ -45,10 +50,10 @@ export default createGlobalStyle`
 
   .project:hover {
     cursor: pointer;
-    box-shadow: 0 10px 15px rgba(38,70,83,.75);
+    box-shadow: 0 35px 20px rgba(38,70,83,.75);
     border: 2px solid #264653;
     position: relative;
-    top: -5px;
+    top: -25px;
     transition: all .2s ease;
     color: #264653;
   }
@@ -119,6 +124,7 @@ export default createGlobalStyle`
   }
 
   h1 {
+    color: #3D3D3D;
     text-align: center;
     font-size: 4rem;
     text-shadow: 2px 2px rgba(0, 0, 0, .25);

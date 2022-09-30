@@ -20,9 +20,9 @@ const Portfolio = () => {
             <div className="tech-stack">React | Node.js | PostgreSQL | AWS | Next.js | Firebase</div>
           </div>
 
-          <div className="project" onClick={event =>  window.open('https://i.imgur.com/sULfCgI.png')}>
+          <div className="project" onClick={event =>  window.open('https://github.com/Baratheon-Stags/front-end-capstone')}>
             <div className="project-info">
-              <img className="project-image" src="https://i.imgur.com/DNIqs11.png"></img>
+              <img className="project-image" src="https://i.imgur.com/sULfCgI.png"></img>
               <div className="project-name">Baratheon E-Commerce UI <GitHubIcon sx={iconStyle}/></div>
               <div className="project-desc">A front end web application built to interact with modern e-commerce APIs. Includes an image gallery/carousel, product descriptions, styles and sizes, bookmarking and a reviews and ratings system.</div>
             </div>
