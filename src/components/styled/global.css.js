@@ -25,11 +25,11 @@ export default createGlobalStyle`
   #projects-container {
     display: flex;
     flex-direction: row;
-    width: 80vw;
+    width: 85vw;
     gap: 45px;
     height: 60vh;
     max-height: 550px;
-    min-width: 1000px;
+    min-width: 800px;
     margin-top: 25px;
   }
 
@@ -86,7 +86,7 @@ export default createGlobalStyle`
   }
 
   .tech-stack {
-    font-size: .5em;
+    font-size: .75em;
   }
 
   .container {
