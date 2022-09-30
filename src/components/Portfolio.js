@@ -3,7 +3,6 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 const iconStyle = {
   fontSize: '16px',
-  color: 'black',
 }
 
 const Portfolio = () => {
