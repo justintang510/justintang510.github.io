@@ -5,8 +5,8 @@ import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const iconStyle = {
-  fontSize: '48px',
-  color: 'black',
+  fontSize: '120px',
+  color: '#2C2C2C',
   marginTop: '10px',
   '&:hover': {
     cursor: 'pointer',

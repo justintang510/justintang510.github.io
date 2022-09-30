@@ -14,6 +14,7 @@ export default createGlobalStyle`
     background-color: #E2CCAD;
     overflow-x: hidden;
     font-family: 'Poppins';
+    color: #2C2C2C;
   }
 
   #projects-container {
@@ -35,7 +36,7 @@ export default createGlobalStyle`
     flex-direction: column;
     padding: 15px;
     border: 2px solid rgba(0,0,0,.75);
-    border-radius: 5px;
+    border-radius: 10px;
     width: 33%;
     justify-content: space-between;
     box-shadow: 0 10px 15px rgba(0,0,0,.75);
@@ -49,6 +50,7 @@ export default createGlobalStyle`
     position: relative;
     top: -5px;
     transition: all .2s ease;
+    color: #264653;
   }
 
   .project-info {
@@ -70,7 +72,6 @@ export default createGlobalStyle`
 
   .project-desc {
     font-size: 1em;
-
   }
 
   .tech-stack {
@@ -120,5 +121,6 @@ export default createGlobalStyle`
   h1 {
     text-align: center;
     font-size: 4rem;
+    text-shadow: 2px 2px rgba(0, 0, 0, .25);
   }
 `;

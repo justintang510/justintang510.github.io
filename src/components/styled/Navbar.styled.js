@@ -6,7 +6,7 @@ const Navbar = styled.header`
   justify-content: right;
   align-items: center;
   height: 75px;
-  background-color: #264653;
+  background-color: #3E5E6B;
   width: 100vw;
   margin: 0;
   box-shadow: 0 3px 10px rgba(0,0,0,.75);
