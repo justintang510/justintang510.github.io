@@ -33,7 +33,7 @@ const Portfolio = () => {
             <div className="project-info">
               <img className="project-image" src="https://i.imgur.com/vRy0TR5.png"></img>
               <div className="project-name">Atelier E-Commerce Systems Design <GitHubIcon sx={iconStyle}/></div>
-              <div className="project-desc">A server, database, and API scaled to support thousands of requests per second, as well as 30M+ records of data. Utilizes a NGINX load balancer that distributes incoming traffic across several AWS EC2 instances in order to handle increases in throughput.</div>
+              <div className="project-desc">A server, database, and API scaled to support thousands of requests per second, as well as 30M+ records of data. Utilizes an NGINX load balancer that distributes incoming traffic across several AWS EC2 instances in order to handle increases in throughput.</div>
               </div>
               <div className="tech-stack">Node.js | PostgreSQL | AWS | NGINX | Postman | k6 | Loader.io</div>
           </div>

@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <>
       <h1>Justin Tang</h1>
-      Full-Stack Software Developer
+      Software Developer
       <div className="icons">
         <EmailIcon onClick={event =>  window.open('mailto:tangjustin2@gmail.com')} sx={iconStyle}/>
         <LinkedInIcon onClick={event =>  window.open('https://www.linkedin.com/in/justintang510/')} sx={iconStyle}/>
