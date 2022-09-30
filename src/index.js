@@ -1,8 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import App from './components/App';
+import GlobalCSS from './components/styled/global.css';
+import { createRoot } from 'react-dom/client';
 
-ReactDOM.render(
+const container = document.getElementById('app');
+const root = createRoot(container);
+root.render(
   <>
-    <App />
-  </>, document.getElementById('app'));
+  <GlobalCSS />
+  <App />
+  </>
+);
