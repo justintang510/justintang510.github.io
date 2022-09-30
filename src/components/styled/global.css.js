@@ -17,7 +17,7 @@ export default createGlobalStyle`
     font-family: 'Poppins', cursive;
   }
 
-  #portfolio {
+  #projects-container {
     display: flex;
     flex-direction: row;
     width: 80vw;
@@ -89,7 +89,7 @@ export default createGlobalStyle`
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 90vh;
+    height: 100vh;
     width: 40vw;
     margin: auto;
     scroll-snap-align: center;

@@ -10,16 +10,16 @@ const App = () => {
     <>
       <Nav />
       <div className="main">
-        <div className="item">
+        <div id="home" className="item">
           <Home />
         </div>
-        <div className="item">
+        <div id="about" className="item">
           <About />
         </div>
-        <div className="item">
+        <div id="portfolio" className="item">
           <Portfolio />
         </div>
-        <div className="item">
+        <div id="contact" className="item">
           <Contact />
         </div>
       </div>

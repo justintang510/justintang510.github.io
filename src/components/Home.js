@@ -16,7 +16,7 @@ const iconStyle = {
 const Home = () => {
   return (
     <>
-      <h1 id="home">Justin Tang</h1>
+      <h1>Justin Tang</h1>
       Full-Stack Software Developer
       <div className="icons">
         <EmailIcon onClick={event =>  window.open('mailto:tangjustin2@gmail.com')} sx={iconStyle}/>

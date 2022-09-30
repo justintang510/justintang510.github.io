@@ -10,7 +10,7 @@ const Portfolio = () => {
   return (
     <>
       <h1>Portfolio</h1>
-      <div id="portfolio">
+      <div id="projects-container">
           <div className="project" onClick={event =>  window.open('https://github.com/Klippan-BO')}>
             <div className="project-info">
                 <img className="project-image" src="https://i.imgur.com/2knfZOL.png"></img>

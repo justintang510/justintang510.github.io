@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div id="about">
+    <div>
       <h1>About Me</h1>
       <p>I am a full-stack software developer specializing in JavaScript, React, CSS and Node.js. I am passionate about building user-friendly applications and designing aesthetic user interfaces.</p>
       <p>I've previously worked as a Senior Quality Analyst for the Monetization Support Team at Meta.
