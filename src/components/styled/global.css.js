@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
   html {
-    font-family: 'Poppins', cursive;
+    font-family: 'Poppins';
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
   }
@@ -14,7 +14,7 @@ export default createGlobalStyle`
     background-color: '#292A30';
     color: '#f5f5f5';
     overflow-x: hidden;
-    font-family: 'Poppins', cursive;
+    font-family: 'Poppins';
   }
 
   #projects-container {
@@ -112,7 +112,7 @@ export default createGlobalStyle`
   h6 {
     margin: 0;
     color: '#f5f5f5';
-    font-family: 'Poppins', cursive;
+    font-family: 'Poppins';
   }
 
   h1 {
