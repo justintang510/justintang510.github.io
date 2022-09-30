@@ -37,6 +37,10 @@ export default createGlobalStyle`
     width: 65vw;
   }
 
+  .icons {
+    margin-top: 5px;
+  }
+
   .project {
     display: flex;
     flex-direction: column;
@@ -121,14 +125,15 @@ export default createGlobalStyle`
   h5,
   h6 {
     margin: 0;
-    color: '#f5f5f5';
+    color: #3D3D3D;
     font-family: 'Poppins';
+    text-shadow: 1px 1px rgba(0, 0, 0, .25);
   }
 
   h1 {
     color: #3D3D3D;
     text-align: center;
     font-size: 4rem;
-    text-shadow: 2px 2px rgba(0, 0, 0, .25);
+    text-shadow: 1px 1px rgba(0, 0, 0, .25);
   }
 `;
