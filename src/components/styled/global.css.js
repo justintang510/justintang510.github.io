@@ -27,7 +27,7 @@ export default createGlobalStyle`
     width: 80vw;
     gap: 15px;
     height: 60vh;
-    max-height: 500px;
+    max-height: 550px;
     margin-top: 25px;
   }
 
@@ -98,7 +98,7 @@ export default createGlobalStyle`
     justify-content: center;
     flex-direction: column;
     height: 100vh;
-    width: 40vw;
+    width: 50vw;
     margin: auto;
     scroll-snap-align: center;
   }
