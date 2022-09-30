@@ -14,6 +14,7 @@ export default createGlobalStyle`
     overflow-x: hidden;
     font-family: 'Poppins';
     color: #2C2C2C;
+    font-display: block;
   }
 
   #home {
