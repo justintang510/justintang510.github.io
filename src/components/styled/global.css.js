@@ -26,9 +26,10 @@ export default createGlobalStyle`
     display: flex;
     flex-direction: row;
     width: 80vw;
-    gap: 15px;
+    gap: 45px;
     height: 60vh;
     max-height: 550px;
+    min-width: 1000px;
     margin-top: 25px;
   }
 
@@ -54,7 +55,7 @@ export default createGlobalStyle`
     box-shadow: 0 35px 20px rgba(38,70,83,.75);
     border: 2px solid #264653;
     position: relative;
-    top: -25px;
+    top: -15px;
     transition: all .2s ease;
     color: #264653;
   }
