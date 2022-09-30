@@ -11,8 +11,7 @@ export default createGlobalStyle`
     margin: 0;
     font-size: 20px;
     line-height: 1.35;
-    background-color: '#292A30';
-    color: '#f5f5f5';
+    background-color: #D6BC98;
     overflow-x: hidden;
     font-family: 'Poppins';
   }
@@ -40,6 +39,7 @@ export default createGlobalStyle`
     width: 33%;
     justify-content: space-between;
     box-shadow: 0 10px 15px rgba(0,0,0,.75);
+    background-color: white;
   }
 
   .project:hover {
