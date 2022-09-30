@@ -7,6 +7,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 const iconStyle = {
   fontSize: '48px',
   color: 'black',
+  marginTop: '10px',
   '&:hover': {
     cursor: 'pointer',
     color: '#264653'
