@@ -9,17 +9,17 @@ const App = () => {
   return (
     <>
       <Nav />
-      <div class="main">
-        <div class="item">
+      <div className="main">
+        <div className="item">
           <Home />
         </div>
-        <div class="item">
+        <div className="item">
           <About />
         </div>
-        <div class="item">
+        <div className="item">
           <Portfolio />
         </div>
-        <div class="item">
+        <div className="item">
           <Contact />
         </div>
       </div>

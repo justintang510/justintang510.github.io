@@ -18,7 +18,7 @@ const Contact = () => {
   return (
     <>
       <h1 id="contact">Contact</h1>
-      <div class="icons">
+      <div className="icons">
         <EmailIcon onClick={event =>  window.open('mailto:tangjustin2@gmail.com')} sx={iconStyle}/>
         <LinkedInIcon onClick={event =>  window.open('https://www.linkedin.com/in/justintang510/')} sx={iconStyle}/>
         <GitHubIcon onClick={event =>  window.open('https://github.com/justintang510/')} sx={iconStyle}/>
