@@ -17,7 +17,7 @@ const iconStyle = {
 
 const Home = () => {
   return (
-    <>
+    <div id="home" className="item">
       <h1>Justin Tang</h1>
       Software Developer
       <div className="icons">
@@ -25,7 +25,7 @@ const Home = () => {
         <LinkedInIcon onClick={event =>  window.open('https://www.linkedin.com/in/justintang510/')} sx={iconStyle}/>
         <GitHubIcon onClick={event =>  window.open('https://github.com/justintang510/')} sx={iconStyle}/>
       </div>
-    </>
+    </div>
   )
 }
 

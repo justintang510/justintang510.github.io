@@ -7,7 +7,7 @@ const iconStyle = {
 
 const Portfolio = () => {
   return (
-    <>
+    <div id="portfolio" className="item">
       <h2>Portfolio</h2>
       <div id="projects-container">
           <div className="project" onClick={event =>  window.open('https://github.com/Klippan-BO')}>
@@ -38,7 +38,7 @@ const Portfolio = () => {
               <div className="tech-stack">Node.js | PostgreSQL | AWS | NGINX | Postman | k6 | Loader.io</div>
           </div>
         </div>
-    </>
+    </div>
   )
 }
 
