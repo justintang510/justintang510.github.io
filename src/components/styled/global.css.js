@@ -86,7 +86,7 @@ export default createGlobalStyle`
   }
 
   .tech-stack {
-    font-size: .75 em;
+    font-size: 14px;
   }
 
   .container {
