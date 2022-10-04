@@ -9,7 +9,7 @@ const ProjectCard = ({ name, desc, stack, url, image }) => {
   return (
     <div className="project" onClick={event =>  window.open(url)}>
       <div className="project-info">
-          <img className="project-image" src={image}></img>
+        <img className="project-image" src={image}></img>
         <div className="project-name">{name} <GitHubIcon sx={iconStyle}/> </div>
         <div className="project-desc">{desc}</div>
       </div>

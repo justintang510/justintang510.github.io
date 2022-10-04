@@ -8,8 +8,9 @@ const Portfolio = () => {
     <div id="portfolio" className="item">
       <h2>Portfolio</h2>
       <div id="projects-container">
-        {Projects.map(project =>
+        {Projects.map((project, key) =>
           <ProjectCard
+            key={key}
             name={project.name}
             desc={project.desc}
             stack={project.stack}
