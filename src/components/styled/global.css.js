@@ -17,31 +17,50 @@ export default createGlobalStyle`
     font-display: block;
   }
 
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 50vw;
+    margin: auto;
+    scroll-snap-align: center;
+  }
+
   #home {
     font-family: 'Poppins';
     font-size: 20px;
   }
 
+  #portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   #projects-container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     width: 85vw;
     gap: 45px;
     height: 60vh;
     max-height: 550px;
-    min-width: 800px;
+    min-width: 950px;
     margin-top: 25px;
   }
 
   #about {
-    width: 65vw;
+    width: 90vw;
+    max-width: 920px;
   }
 
   .icons {
     margin-top: 5px;
   }
 
-  .project {
+  .project-card {
     display: flex;
     flex-direction: column;
     padding: 15px;
@@ -49,12 +68,13 @@ export default createGlobalStyle`
     border: 2px solid rgba(61,61,61,.75);
     border-radius: 10px;
     width: 33%;
+    height: 500px;
     justify-content: space-between;
     box-shadow: 0 10px 15px rgba(0,0,0,.75);
     background-color: white;
   }
 
-  .project:hover {
+  .project-card:hover {
     cursor: pointer;
     box-shadow: 0 35px 20px rgba(38,70,83,.75);
     border: 2px solid #264653;
@@ -72,13 +92,14 @@ export default createGlobalStyle`
   }
 
   .project-name {
-    margin: 8px 0 5px;
+    margin: 12px 0 12px;
     font-size: 1.5em;
   }
 
   .project-image {
     display: flex;
     height: 100%;
+    border: 1px solid rgba(61,61,61,.35);
   }
 
   .project-desc {
@@ -96,17 +117,6 @@ export default createGlobalStyle`
     flex-direction: column;
     width: 80vw;
 
-  }
-
-  .item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 100vh;
-    width: 50vw;
-    margin: auto;
-    scroll-snap-align: center;
   }
 
   .contact {

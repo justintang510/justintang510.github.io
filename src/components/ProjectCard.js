@@ -7,7 +7,7 @@ const iconStyle = {
 
 const ProjectCard = ({ name, desc, stack, url, image }) => {
   return (
-    <div className="project" onClick={event =>  window.open(url)}>
+    <div className="project-card" onClick={event =>  window.open(url)}>
       <div className="project-info">
         <img className="project-image" src={image}></img>
         <div className="project-name">{name} <GitHubIcon sx={iconStyle}/> </div>
