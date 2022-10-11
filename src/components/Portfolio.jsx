@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectCard from './ProjectCard.jsx';
-import { Projects } from '../Projects';
+import Projects from '../Projects';
 
 const Portfolio = () => (
   <div id="portfolio" className="item">
@@ -8,6 +8,7 @@ const Portfolio = () => (
     <div id="projects-container">
       {Projects.map((project) => (
         <ProjectCard
+          key={project.id}
           name={project.name}
           desc={project.desc}
           stack={project.stack}
