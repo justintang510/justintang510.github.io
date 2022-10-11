@@ -72,13 +72,14 @@ export default createGlobalStyle`
   }
 
   .project-name {
-    margin: 8px 0 5px;
+    margin: 12px 0 12px;
     font-size: 1.5em;
   }
 
   .project-image {
     display: flex;
     height: 100%;
+    border: 1px solid rgba(61,61,61,.35);
   }
 
   .project-desc {
