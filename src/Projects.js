@@ -1,4 +1,4 @@
-let Projects = [
+export const Projects = [
   {
     name: 'Trail Companions',
     desc: 'A full stack web application providing a community for hikers and crowd-sourced reviews for trails. Users may login with Google Sign-In, find information on trails, leave comments, upload photos, create personal profiles, add friends and plan events.',
@@ -19,7 +19,5 @@ let Projects = [
     stack: 'Node.js | PostgreSQL | AWS | NGINX | Postman | k6 | Loader.io',
     url: 'https://github.com/Samosas-SDC/reviews-api',
     image: 'https://i.imgur.com/vRy0TR5.png',
-  }
-]
-
-export default Projects;
+  },
+];
