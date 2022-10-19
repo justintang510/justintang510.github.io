@@ -28,16 +28,17 @@ p {
 #projects-container {
   display: flex;
   flex-direction: row;
-  width: 85vw;
+  width: 90vw;
   gap: 45px;
   height: 60vh;
   max-height: 550px;
-  min-width: 800px;
+  min-width: 950px;
   margin-top: 25px;
 }
 
 #about {
   width: 65vw;
+  min-width: 880px;
 }
 
 .icons {
