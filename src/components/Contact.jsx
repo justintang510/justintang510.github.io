@@ -15,13 +15,13 @@ const iconStyle = {
   },
 };
 
-const Contact = () => (
+const Contact = ({ links }) => (
   <div id="contact" className="item">
     <h2>Contact</h2>
     <div className="icons">
-      <EmailIcon onClick={() => window.open('mailto:tangjustin2@gmail.com')} sx={iconStyle} />
-      <LinkedInIcon onClick={() => window.open('https://www.linkedin.com/in/justintang510/')} sx={iconStyle} />
-      <GitHubIcon onClick={() => window.open('https://github.com/justintang510/')} sx={iconStyle} />
+      <EmailIcon onClick={() => window.open(links.email)} sx={iconStyle} />
+      <LinkedInIcon onClick={() => window.open(links.linkedin)} sx={iconStyle} />
+      <GitHubIcon onClick={() => window.open(links.github)} sx={iconStyle} />
     </div>
   </div>
 );
