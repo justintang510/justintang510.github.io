@@ -7,7 +7,7 @@ import Contact from './Contact.jsx';
 import Info from '../Info';
 
 const App = () => (
-  <>
+  <div data-testid="App-1">
     <Nav />
     <div className="main">
       <Home
@@ -29,7 +29,7 @@ const App = () => (
         links={Info.links}
       />
     </div>
-  </>
+  </div>
 );
 
 export default App;
