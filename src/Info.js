@@ -10,7 +10,7 @@ const Info = {
   bio: [
     `I am a software developer specializing in JavaScript, React, CSS, Node.js and systems design. I am passionate about building user-friendly applications and designing aesthetic user interfaces.`,
     `I've previously worked as a Senior Quality Analyst for the Monetization Support Team at Meta. My experience at Meta inspired me to pursue software engineering so that I can solve more complex problems and leave a bigger impact on the industry.`,
-    `When I'm not programming, I enjoy discovering new music, watching esports and studying astronomy and physics. I also coach a competitive VALORANT team in my free time.`
+    `When I'm not programming, I enjoy discovering new music, watching esports and reading about astronomy and physics. I also coach a competitive VALORANT team in my free time.`
   ],
   projects: [
     {
