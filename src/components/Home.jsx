@@ -15,16 +15,18 @@ const iconStyle = {
   },
 };
 
-const Home = ({ name, title, links }) => (
-  <div id="home" className="item">
-    <h1>{name}</h1>
-    {title}
-    <div className="icons">
-      <EmailIcon onClick={() => window.open(links.email)} sx={iconStyle} />
-      <LinkedInIcon onClick={() => window.open(links.linkedin)} sx={iconStyle} />
-      <GitHubIcon onClick={() => window.open(links.github)} sx={iconStyle} />
+const Home = ({ name, title, links }) => {
+  return (
+    <div id="home" className="item">
+      <h1>{name}</h1>
+      {title}
+      <div className="icons">
+        <EmailIcon onClick={() => window.open(links.email)} sx={iconStyle} />
+        <LinkedInIcon onClick={() => window.open(links.linkedin)} sx={iconStyle} />
+        <GitHubIcon onClick={() => window.open(links.github)} sx={iconStyle} />
+      </div>
     </div>
-  </div>
-);
+  );
+  }
 
 export default Home;

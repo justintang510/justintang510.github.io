@@ -17,6 +17,7 @@ body {
 }
 
 p {
+  font-size: 26px;
   margin-bottom: -2px;
 }
 
@@ -54,7 +55,7 @@ p {
   border: 2px solid rgba(61,61,61,.75);
   border-radius: 10px;
   width: 480px;
-  height: 500px;
+  height: 480px;
   justify-content: space-between;
   box-shadow: 0 10px 15px rgba(0,0,0,.75);
   background-color: white;
